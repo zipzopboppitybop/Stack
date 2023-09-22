@@ -34,7 +34,6 @@ function ProfileButton({ user }) {
   };
 
   const ulClassName = "profile-dropdown" + (showMenu ? "" : " hidden");
-  console.log(ulClassName);
 
   return (
     <>
